@@ -1,0 +1,6 @@
+.moth{ background:url("moth.png") top left no-repeat; }
+#wings3{ width:800px; height:600px; background-position:-20px -20px; }
+#wings2{ width:800px; height:600px; background-position:-20px -640px; }
+#wings1{ width:800px; height:600px; background-position:-20px -1260px; }
+#body{ width:800px; height:600px; background-position:-20px -1880px; }
+

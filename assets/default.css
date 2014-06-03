@@ -1,0 +1,50 @@
+.title {
+	font-family: "Wire One" sans-serif;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 24px;
+}
+
+.title a:hover,
+.title a:link,
+.title a:visited,
+.title a:active,
+.title a:focus {
+	color:#666666;
+	text-decoration:none;
+}
+
+.navigation {
+	font-family: "Wire One" sans-serif;
+	text-align: center;
+	font-size: 24px;
+}
+
+.navigation li {
+	padding: 25px 40px;
+}
+
+.navigation li:last-child {
+	padding-right: 76px;
+}
+
+.navigation li.active {
+	background: #E6E6E6;
+}
+
+.navigation a:hover,
+.navigation a:link,
+.navigation a:visited,
+.navigation a:active,
+.navigation a:focus {
+	color:#666666;
+	text-decoration:none;
+}
+
+.footer {
+	font-family: "Dosis" sans-serif;
+	text-align: center;
+	font-size: 22;
+	padding: 60px 30px 40px 5px;
+	color: #808080;
+}
