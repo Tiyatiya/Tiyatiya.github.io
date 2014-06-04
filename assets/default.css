@@ -38,14 +38,26 @@ a.post:focus {
 	text-align: center;
 	font-size: 24px;
 }
-
 .navigation li {
 	padding: 25px 40px;
+  display: inline-block;
 }
-
 .navigation li:last-child {
   margin-right: 36px;
 }
+.navigation ul {
+  padding: 0px;
+}
+
+@media (max-width:991px) {
+  .navigation li {
+    display: block;
+  }
+  .navigation li:last-child {
+    margin-right: 0px;
+  }
+}
+
 
 .navigation li.active {
 	background: #E6E6E6;
