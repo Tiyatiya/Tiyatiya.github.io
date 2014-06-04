@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="row">
+  <div class="col-xs-12 col-md-offset-3 col-md-6 box">
+    <div class="vspace10">
+      <a class="post" href="{{ page.url }}">
+        <div class="post-date">{{ page.date | date_to_long_string }}</div>
+        <div class="vspace5">
+          <img class="block-center img-responsive" src="{{ page.image }}">
+        </div>
+        <div class="post-title vspace10">{{ page.title }}</div>
+        <div class="vspace5">
+          {{ content }}
+        </div>
+      </a>
+    </div>
+  </div>
+</div>

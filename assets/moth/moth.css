@@ -1,6 +1,46 @@
-.moth{ background:url("moth.png") top left no-repeat; }
-#wings3{ width:800px; height:600px; background-position:-20px -20px; }
-#wings2{ width:800px; height:600px; background-position:-20px -640px; }
-#wings1{ width:800px; height:600px; background-position:-20px -1260px; }
-#body{ width:800px; height:600px; background-position:-20px -1880px; }
-
+.moth-container {
+  margin: 0px auto;
+  height:600px;
+  width: 800px;
+}
+
+.moth{
+  position: absolute;
+  background:url("moth.png") top left no-repeat;
+  width:800px;
+  height:600px;
+}
+#wings3{
+  background-position:-20px -20px;
+}
+#wings2{
+  background-position:-20px -640px;
+}
+#wings1{
+  background-position:-20px -1260px;
+}
+#body{
+  background-position:-20px -1880px;
+}
+
+@media only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dppx) {
+  .moth{
+    background:url("moth_2x.png") top left no-repeat;
+  }
+  #wings3{
+    background-position:-20px -20px;
+  }
+  #wings2{
+    background-position:-20px -1240px;
+  }
+  #wings1{
+    background-position:-20px -2460px;
+  }
+  #body{
+    background-position:-20px -3680px;
+  }
+}

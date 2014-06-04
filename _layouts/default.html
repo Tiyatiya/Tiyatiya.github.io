@@ -20,27 +20,23 @@
 
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" type="text/css" charset="utf-8">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" type="text/css" charset="utf-8">
-    <link href='http://fonts.googleapis.com/css?family=Dosis:400,500,600|Wire+One' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="assets/moth/moth.css" type="text/css" charset="utf-8">
-    <link rel="stylesheet" href="assets/moth/moth_2x.css" type="text/css" charset="utf-8">
-    <link rel="stylesheet" href="assets/haven/haven.css" type="text/css" charset="utf-8">
-    <link rel="stylesheet" href="assets/haven/haven_2x.css" type="text/css" charset="utf-8">
-    <link rel="stylesheet" href="assets/default.css" type="text/css" charset="utf-8">
+    <link href='//fonts.googleapis.com/css?family=Dosis:400,500,600|Wire+One' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/assets/moth/moth.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="/assets/haven/haven.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="/assets/haven/haven_2x.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="/assets/default.css" type="text/css" charset="utf-8">
   </head>
   <body>
     <div class="container">
-  
-
-
       <div class="title">
         <a href="//www.tiyatiya.com"> What have I been up to? </a>
       </div>
 
       <div class="navigation">
         <ul class="list-inline">
-          <li class="active"> <a href="//www.tiyatiya.com/designandillustration"> design & illustration </a> </li>
-          <li> <a href="//www.bobbin4apples.etsy.com"> craft & shop </a> </li>
-          <li> <a href="//www.tiyatiya.com/mylittlehaven"> my little haven </a> </li>
+          <li id="design"> <a href="/blog/index.html"> design & illustration </a> </li>
+          <li> <a href="//www.bobbin4apples.etsy.com" target="_blank"> craft & shop </a> </li>
+          <li id="haven"> <a href="/mylittlehaven.html"> my little haven </a> </li>
         </ul>
       </div>
 
@@ -50,5 +46,11 @@
       © 2014 by Tiya Tiyasirichokchai. No image or content use without explicit permission.
       </div>
     </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="/assets/nav.js" type="text/javascript" charset="utf-8"></script>
+  {% for script in page.scripts %}
+  <script src="{{ script }}" type="text/javascript" charset="utf-8"></script>
+  {% endfor %}
   </body>
 </html>

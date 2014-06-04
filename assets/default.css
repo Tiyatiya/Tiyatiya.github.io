@@ -1,3 +1,7 @@
+body {
+	color:#666666;
+}
+
 .title {
 	font-family: "Wire One" sans-serif;
 	text-align: center;
@@ -14,6 +18,21 @@
 	text-decoration:none;
 }
 
+.post {
+	color:#666666;
+}
+a.post:hover,
+a.post:active,
+a.post:focus {
+  text-decoration:none;
+	color:#666666;
+}
+
+.box {
+  box-shadow: 0px 0px 8px #aaa;
+  border-radius: 5px;
+}
+
 .navigation {
 	font-family: "Wire One" sans-serif;
 	text-align: center;
@@ -25,7 +44,7 @@
 }
 
 .navigation li:last-child {
-	padding-right: 76px;
+  margin-right: 36px;
 }
 
 .navigation li.active {
@@ -47,4 +66,49 @@
 	font-size: 22;
 	padding: 60px 30px 40px 5px;
 	color: #808080;
+}
+
+.block-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post-title {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.post-date {
+  font-weight: 600;
+  text-align: right;
+}
+
+a.link-stealthy,
+a.link-stealthy:hover,
+a.link-stealthy:active,
+a.link-stealthy:focus{
+  text-decoration:none;
+	color:#666666;
+}
+
+.vspace5 {
+  margin-top: 5px;
+}
+.vspace10 {
+  margin-top: 10px;
+}
+.vspace15 {
+  margin-top: 15px;
+}
+.vspace20 {
+  margin-top: 20px;
+}
+.vbspace5 {
+  margin-bottom: 5px;
+}
+.vbspace10 {
+  margin-bottom: 10px;
+}
+.vbspace20 {
+  margin-bottom: 20px;
 }

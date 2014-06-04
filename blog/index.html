@@ -1,0 +1,45 @@
+---
+layout: default
+---
+<div class="row">
+  <div class="col-xs-12 col-md-offset-3 col-md-6 box">
+    <!-- This loops through the paginated posts -->
+    {% for post in paginator.posts %}
+      <div class="vspace10">
+        <a class="post" href="{{ post.url }}">
+          <div class="post-date">{{ post.date | date_to_long_string }}</div>
+          <div class="vspace5">
+            <img class="block-center img-responsive" src="{{ post.image }}">
+          </div>
+          <div class="post-title vspace10">{{ post.title }}</div>
+          <div class="vspace5">
+            {{ post.content }}
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+
+    <!-- Pagination -->
+    {% if paginator.total_pages > 1 %}
+    <div class="vbspace10">
+      {% if paginator.previous_page %}
+        <div class="pull-left">
+          <a class="link-stealthy" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+            <i class="fa fa-chevron-circle-left fa-3x"></i>
+          </a>
+        </div>
+      {% endif %}
+
+      {% if paginator.next_page %}
+        <div class="pull-right">
+          <a class="link-stealthy" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+            <i class="fa fa-chevron-circle-right fa-3x"></i>
+          </a>
+        </div>
+      {% endif %}
+
+      <div class="clearfix"></div>
+    </div>
+    {% endif %}
+  </div>
+</div>
