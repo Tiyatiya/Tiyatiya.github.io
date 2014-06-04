@@ -140,3 +140,68 @@ only screen and (min-resolution: 144dppx) {
     75% { background-position: -20px -20px; }
   }
 }
+
+.icon-list {
+  text-align: center;
+}
+.icon {
+  vertical-align: top;
+  width: 50px;
+  height: 50px;
+  margin: 0px 10px;
+  padding: 10px 10px;
+  border-radius: 25px;
+}
+.desktop-icon {
+  background: #999999; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #999999 2%, #eeeeee 25%, #999999 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(2%,#999999), color-stop(25%,#eeeeee), color-stop(100%,#999999)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  #999999 2%,#eeeeee 25%,#999999 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  #999999 2%,#eeeeee 25%,#999999 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  #999999 2%,#eeeeee 25%,#999999 100%); /* IE10+ */
+  background: linear-gradient(135deg,  #999999 2%,#eeeeee 25%,#999999 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#999999', endColorstr='#999999',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  
+  color: #666;
+}
+.desktop-icon a,
+.desktop-icon a:hover,
+.desktop-icon a:active,
+.desktop-icon a:focus {
+  color: #666;
+}
+
+.icon-red {
+  background: #FF7BAC;
+}
+.icon-red a,
+.icon-red a:hover,
+.icon-red a:active,
+.icon-red a:focus {
+  color: #CC5887;
+}
+
+.icon-green {
+  background: #A2C67F;
+}
+.icon-green a,
+.icon-green a:hover,
+.icon-green a:active,
+.icon-green a:focus {
+  color: #5E7A40;
+}
+
+.icon-blue {
+  background: #3FA9F5;
+}
+.icon-blue a,
+.icon-blue a:hover,
+.icon-blue a:active,
+.icon-blue a:focus {
+  color: #1A79A8;
+}
+
+.screen-size-message {
+  color: #999;
+  font-size: 18px;
+}
