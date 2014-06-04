@@ -21,10 +21,10 @@
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" type="text/css" charset="utf-8">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" type="text/css" charset="utf-8">
     <link href='//fonts.googleapis.com/css?family=Dosis:400,500,600|Wire+One' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/assets/moth/moth.css" type="text/css" charset="utf-8">
-    <link rel="stylesheet" href="/assets/haven/haven.css" type="text/css" charset="utf-8">
-    <link rel="stylesheet" href="/assets/haven/haven_2x.css" type="text/css" charset="utf-8">
     <link rel="stylesheet" href="/assets/default.css" type="text/css" charset="utf-8">
+    {% for link in page.css %}
+    <link rel="stylesheet" href="{{ link }}" type="text/css" charset="utf-8">
+    {% endfor %}
   </head>
   <body>
     <div class="container">
@@ -49,6 +49,7 @@
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="/assets/nav.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/assets/animate.js" type="text/javascript" charset="utf-8"></script>
   {% for script in page.scripts %}
   <script src="{{ script }}" type="text/javascript" charset="utf-8"></script>
   {% endfor %}

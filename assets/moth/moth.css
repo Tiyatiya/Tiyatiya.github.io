@@ -10,18 +10,50 @@
   width:800px;
   height:600px;
 }
-#wings3{
-  background-position:-20px -20px;
-}
-#wings2{
-  background-position:-20px -640px;
-}
-#wings1{
-  background-position:-20px -1260px;
-}
-#body{
+.body{
   background-position:-20px -1880px;
 }
+
+.wings {
+  -webkit-animation: wings 5s steps(1, end) infinite;
+  -webkit-animation-direction: alternate;
+  -moz-animation: wings 5s steps(1, end) infinite;
+  -moz-animation-direction: alternate;
+  -ms-animation: wings 5s steps(1, end) infinite;
+  -ms-animation-direction: alternate;
+  -o-animation: wings 5s steps(1, end) infinite;
+  -o-animation-direction: alternate;
+  animation: wings 5s steps(1, end) infinite;
+  animation-direction: alternate;
+  background-position:-20px -1260px;
+}
+
+@-webkit-keyframes wings {
+  95% { background-position: -20px -1260px; }
+  97% { background-position: -20px -640px; }
+  99% { background-position: -20px -20px; }
+}
+@-moz-keyframes wings {
+  95% { background-position: -20px -1260px; }
+  97% { background-position: -20px -640px; }
+  99% { background-position: -20px -20px; }
+}
+@-ms-keyframes wings {
+  95% { background-position: -20px -1260px; }
+  97% { background-position: -20px -640px; }
+  99% { background-position: -20px -20px; }
+}
+@-o-keyframes wings {
+  95% { background-position: -20px -1260px; }
+  97% { background-position: -20px -640px; }
+  99% { background-position: -20px -20px; }
+}
+@keyframes wings {
+  95% { background-position: -20px -1260px; }
+  97% { background-position: -20px -640px; }
+  99% { background-position: -20px -20px; }
+}
+
 
 @media only screen and (-moz-min-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
@@ -31,16 +63,52 @@ only screen and (min-resolution: 144dppx) {
   .moth{
     background:url("moth_2x.png") top left no-repeat;
   }
-  #wings3{
-    background-position:-20px -20px;
+  .body{
+    background-position:-20px -3680px;
   }
-  #wings2{
-    background-position:-20px -1240px;
-  }
-  #wings1{
+
+  .wings {
     background-position:-20px -2460px;
   }
-  #body{
-    background-position:-20px -3680px;
+
+  @-webkit-keyframes wings {
+    95% { background-position: -20px -2460px;
+    }
+    97% { background-position: -20px -1240px;
+    }
+    99% { background-position: -20px -20px;
+    }
+  }
+  @-moz-keyframes wings {
+    95% { background-position: -20px -2460px;
+    }
+    97% { background-position: -20px -1240px;
+    }
+    99% { background-position: -20px -20px;
+    }
+  }
+  @-ms-keyframes wings {
+    95% { background-position: -20px -2460px;
+    }
+    97% { background-position: -20px -1240px;
+    }
+    99% { background-position: -20px -20px;
+    }
+  }
+  @-o-keyframes wings {
+    95% { background-position: -20px -2460px;
+    }
+    97% { background-position: -20px -1240px;
+    }
+    99% { background-position: -20px -20px;
+    }
+  }
+  @keyframes wings {
+    95% { background-position: -20px -2460px;
+    }
+    97% { background-position: -20px -1240px;
+    }
+    99% { background-position: -20px -20px;
+    }
   }
 }

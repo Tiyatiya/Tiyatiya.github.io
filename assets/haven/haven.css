@@ -1,9 +1,142 @@
-.haven{ background:url("haven.png") top left no-repeat; }
-#sunray3{ width:750px; height:1072px; background-position:-20px -20px; }
-#landscape4{ width:750px; height:1072px; background-position:-20px -1112px; }
-#landscape3{ width:750px; height:1072px; background-position:-20px -2204px; }
-#landscape2{ width:750px; height:1072px; background-position:-20px -3296px; }
-#landscape1{ width:750px; height:1072px; background-position:-20px -4388px; }
-#sunray2{ width:750px; height:1071px; background-position:-20px -5480px; }
-#sunray1{ width:750px; height:1071px; background-position:-20px -6571px; }
-
+.haven-container {
+  margin: 0px auto;
+  height:1072px;
+  width: 750px;
+}
+.haven{
+  background:url("haven.png") top left no-repeat;
+  position: absolute;
+  width:750px;
+  height:1072px;
+}
+
+.landscape {
+  -webkit-animation: landscape .8s steps(3) infinite;
+  -moz-animation: landscape .8s steps(3) infinite;
+  -ms-animation: landscape .8s steps(3) infinite;
+  -o-animation: landscape .8s steps(3) infinite;
+  animation: landscape .8s steps(3) infinite;
+  background-position:-20px -4388px;
+}
+@-webkit-keyframes landscape {
+  from { background-position: -20px -4388px; }
+  to { background-position: -20px -1112px; }
+}
+@-moz-keyframes landscape {
+  from { background-position: -20px -4388px; }
+  to { background-position: -20px -1112px; }
+}
+@-ms-keyframes landscape {
+  from { background-position: -20px -4388px; }
+  to { background-position: -20px -1112px; }
+}
+@-o-keyframes landscape {
+  from { background-position: -20px -4388px; }
+  to { background-position: -20px -1112px; }
+}
+@keyframes landscape {
+  from { background-position: -20px -4388px; }
+  to { background-position: -20px -1112px; }
+}
+
+.sunray {
+  -webkit-animation: sunray 6s steps(1, end) infinite;
+  -webkit-animation-direction: alternate;
+  -moz-animation: sunray 6s steps(1, end) infinite;
+  -moz-animation-direction: alternate;
+  -ms-animation: sunray 6s steps(1, end) infinite;
+  -ms-animation-direction: alternate;
+  -o-animation: sunray 6s steps(1, end) infinite;
+  -o-animation-direction: alternate;
+  animation: sunray 6s steps(1, end) infinite;
+  animation-direction: alternate;
+  background-position:-20px -5480px;
+}
+@-webkit-keyframes sunray {
+  0% { background-position: -20px -5480px; }
+  25% { background-position: -20px -6571px; }
+  75% { background-position: -20px -20px; }
+}
+@-moz-keyframes sunray {
+  0% { background-position: -20px -5480px; }
+  25% { background-position: -20px -6571px; }
+  75% { background-position: -20px -20px; }
+}
+@-ms-keyframes sunray {
+  0% { background-position: -20px -5480px; }
+  25% { background-position: -20px -6571px; }
+  75% { background-position: -20px -20px; }
+}
+@-o-keyframes sunray {
+  0% { background-position: -20px -5480px; }
+  25% { background-position: -20px -6571px; }
+  75% { background-position: -20px -20px; }
+}
+@keyframes sunray {
+  0% { background-position: -20px -5480px; }
+  25% { background-position: -20px -6571px; }
+  75% { background-position: -20px -20px; }
+}
+
+@media only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dppx) {
+  .haven{
+    background:url("haven_2x.png") top left no-repeat;
+  }
+  .landscape {
+    background-position:-20px -13010px;
+  }
+  .sunray {
+    background-position:-20px -2185px;
+  }
+
+  @-webkit-keyframes landscape {
+    from { background-position: -20px -13010px; }
+    to { background-position: -20px -6515px; }
+  }
+  @-moz-keyframes landscape {
+    from { background-position: -20px -13010px; }
+    to { background-position: -20px -6515px; }
+  }
+  @-ms-keyframes landscape {
+    from { background-position: -20px -13010px; }
+    to { background-position: -20px -6515px; }
+  }
+  @-o-keyframes landscape {
+    from { background-position: -20px -13010px; }
+    to { background-position: -20px -6515px; }
+  }
+  @keyframes landscape {
+    from { background-position: -20px -13010px; }
+    to { background-position: -20px -6515px; }
+  }
+
+  @-webkit-keyframes sunray {
+    0% { background-position: -20px -2185px; }
+    25% { background-position: -20px -4250px; }
+    75% { background-position: -20px -20px; }
+  }
+  @-moz-keyframes sunray {
+    0% { background-position: -20px -2185px; }
+    25% { background-position: -20px -4250px; }
+    75% { background-position: -20px -20px; }
+  }
+  @-ms-keyframes sunray {
+    0% { background-position: -20px -2185px; }
+    25% { background-position: -20px -4250px; }
+    75% { background-position: -20px -20px; }
+  }
+  @-o-keyframes sunray {
+    0% { background-position: -20px -2185px; }
+    25% { background-position: -20px -4250px; }
+    75% { background-position: -20px -20px; }
+  }
+  @keyframes sunray {
+    0% { background-position: -20px -2185px; }
+    25% { background-position: -20px -4250px; }
+    75% { background-position: -20px -20px; }
+  }
+}
