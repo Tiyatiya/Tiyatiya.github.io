@@ -39,43 +39,71 @@
   to { background-position: -20px -1112px; }
 }
 
-.sunray {
-  -webkit-animation: sunray 6s steps(1, end) infinite;
+.sunray1{
+  -webkit-animation: sunray1 6s linear infinite;
   -webkit-animation-direction: alternate;
-  -moz-animation: sunray 6s steps(1, end) infinite;
+  -moz-animation: sunray1 6s linear infinite;
   -moz-animation-direction: alternate;
-  -ms-animation: sunray 6s steps(1, end) infinite;
+  -ms-animation: sunray1 6s linear infinite;
   -ms-animation-direction: alternate;
-  -o-animation: sunray 6s steps(1, end) infinite;
+  -o-animation: sunray1 6s linear infinite;
   -o-animation-direction: alternate;
-  animation: sunray 6s steps(1, end) infinite;
+  animation: sunray1 6s linear infinite;
   animation-direction: alternate;
-  background-position:-20px -5480px;
+  background-position: -20px -5480px;
 }
-@-webkit-keyframes sunray {
-  0% { background-position: -20px -5480px; }
-  25% { background-position: -20px -6571px; }
-  75% { background-position: -20px -20px; }
+.sunray2{
+  -webkit-animation: sunray2 6s linear infinite;
+  -webkit-animation-direction: alternate;
+  -moz-animation: sunray2 6s linear infinite;
+  -moz-animation-direction: alternate;
+  -ms-animation: sunray2 6s linear infinite;
+  -ms-animation-direction: alternate;
+  -o-animation: sunray2 6s linear infinite;
+  -o-animation-direction: alternate;
+  animation: sunray2 6s linear infinite;
+  animation-direction: alternate;
+  background-position: -20px -20px;
 }
-@-moz-keyframes sunray {
-  0% { background-position: -20px -5480px; }
-  25% { background-position: -20px -6571px; }
-  75% { background-position: -20px -20px; }
+@-webkit-keyframes sunray1 {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
-@-ms-keyframes sunray {
-  0% { background-position: -20px -5480px; }
-  25% { background-position: -20px -6571px; }
-  75% { background-position: -20px -20px; }
+@-webkit-keyframes sunray2 {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
 }
-@-o-keyframes sunray {
-  0% { background-position: -20px -5480px; }
-  25% { background-position: -20px -6571px; }
-  75% { background-position: -20px -20px; }
+@-moz-keyframes sunray1 {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
-@keyframes sunray {
-  0% { background-position: -20px -5480px; }
-  25% { background-position: -20px -6571px; }
-  75% { background-position: -20px -20px; }
+@-moz-keyframes sunray2 {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-ms-keyframes sunray1 {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-ms-keyframes sunray2 {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-o-keyframes sunray1 {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes sunray2 {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@keyframes sunray1 {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes sunray2 {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
 }
 
 @media only screen and (-moz-min-device-pixel-ratio: 1.5),
@@ -89,7 +117,7 @@ only screen and (min-resolution: 144dppx) {
   .landscape {
     background-position:-20px -13010px;
   }
-  .sunray {
+  .sunray1 {
     background-position:-20px -2185px;
   }
 
@@ -113,32 +141,6 @@ only screen and (min-resolution: 144dppx) {
     from { background-position: -20px -13010px; }
     to { background-position: -20px -6515px; }
   }
-
-  @-webkit-keyframes sunray {
-    0% { background-position: -20px -2185px; }
-    25% { background-position: -20px -4250px; }
-    75% { background-position: -20px -20px; }
-  }
-  @-moz-keyframes sunray {
-    0% { background-position: -20px -2185px; }
-    25% { background-position: -20px -4250px; }
-    75% { background-position: -20px -20px; }
-  }
-  @-ms-keyframes sunray {
-    0% { background-position: -20px -2185px; }
-    25% { background-position: -20px -4250px; }
-    75% { background-position: -20px -20px; }
-  }
-  @-o-keyframes sunray {
-    0% { background-position: -20px -2185px; }
-    25% { background-position: -20px -4250px; }
-    75% { background-position: -20px -20px; }
-  }
-  @keyframes sunray {
-    0% { background-position: -20px -2185px; }
-    25% { background-position: -20px -4250px; }
-    75% { background-position: -20px -20px; }
-  }
 }
 
 .icon-list {
@@ -153,15 +155,7 @@ only screen and (min-resolution: 144dppx) {
   border-radius: 25px;
 }
 .desktop-icon {
-  background: #999999; /* Old browsers */
-  background: -moz-linear-gradient(-45deg,  #999999 2%, #eeeeee 25%, #999999 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(2%,#999999), color-stop(25%,#eeeeee), color-stop(100%,#999999)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(-45deg,  #999999 2%,#eeeeee 25%,#999999 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(-45deg,  #999999 2%,#eeeeee 25%,#999999 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(-45deg,  #999999 2%,#eeeeee 25%,#999999 100%); /* IE10+ */
-  background: linear-gradient(135deg,  #999999 2%,#eeeeee 25%,#999999 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#999999', endColorstr='#999999',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-  
+  background: #ccc;
   color: #666;
 }
 .desktop-icon a,
