@@ -39,11 +39,13 @@ a.post:focus {
 	font-size: 24px;
 }
 .navigation li {
-	padding: 25px 40px;
+	margin: 20px 35px;
+  padding: 5px;
   display: inline-block;
+  border-radius: 4px;
 }
 .navigation li:last-child {
-  margin-right: 36px;
+  margin-right: 75px;
 }
 .navigation ul {
   padding: 0px;
@@ -126,4 +128,21 @@ a.link-stealthy:focus{
 }
 .vbspace20 {
   margin-bottom: 20px;
+}
+
+.relpos {
+  position: relative;
+}
+
+.rss-link {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background: #e6e6e6;
+  padding-top: 4px;
+  padding-left: 3px;
 }
