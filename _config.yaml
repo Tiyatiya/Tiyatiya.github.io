@@ -1,1 +1,9 @@
-pagination: 3
+name: Tiyatiya's Blog
+url: tiyatiya.com
+
+author:
+  name: Tiya Tiyasirichokchai
+  email: tiya.chokchai@gmail.com
+
+paginate: 3
+paginate_path: "blog/page:num"

@@ -1,9 +1,201 @@
-.haven{ background:url("haven.png") top left no-repeat; }
-#sunray3{ width:750px; height:1072px; background-position:-20px -20px; }
-#landscape4{ width:750px; height:1072px; background-position:-20px -1112px; }
-#landscape3{ width:750px; height:1072px; background-position:-20px -2204px; }
-#landscape2{ width:750px; height:1072px; background-position:-20px -3296px; }
-#landscape1{ width:750px; height:1072px; background-position:-20px -4388px; }
-#sunray2{ width:750px; height:1071px; background-position:-20px -5480px; }
-#sunray1{ width:750px; height:1071px; background-position:-20px -6571px; }
-
+.haven-container {
+  margin: 0px auto;
+  height:1072px;
+  width: 750px;
+}
+.haven{
+  background:url("haven.png") top left no-repeat;
+  position: absolute;
+  width:750px;
+  height:1072px;
+}
+
+.landscape {
+  -webkit-animation: landscape .8s steps(3) infinite;
+  -moz-animation: landscape .8s steps(3) infinite;
+  -ms-animation: landscape .8s steps(3) infinite;
+  -o-animation: landscape .8s steps(3) infinite;
+  animation: landscape .8s steps(3) infinite;
+  background-position:-20px -4388px;
+}
+@-webkit-keyframes landscape {
+  from { background-position: -20px -4388px; }
+  to { background-position: -20px -1112px; }
+}
+@-moz-keyframes landscape {
+  from { background-position: -20px -4388px; }
+  to { background-position: -20px -1112px; }
+}
+@-ms-keyframes landscape {
+  from { background-position: -20px -4388px; }
+  to { background-position: -20px -1112px; }
+}
+@-o-keyframes landscape {
+  from { background-position: -20px -4388px; }
+  to { background-position: -20px -1112px; }
+}
+@keyframes landscape {
+  from { background-position: -20px -4388px; }
+  to { background-position: -20px -1112px; }
+}
+
+.sunray1{
+  -webkit-animation: sunray1 6s linear infinite;
+  -webkit-animation-direction: alternate;
+  -moz-animation: sunray1 6s linear infinite;
+  -moz-animation-direction: alternate;
+  -ms-animation: sunray1 6s linear infinite;
+  -ms-animation-direction: alternate;
+  -o-animation: sunray1 6s linear infinite;
+  -o-animation-direction: alternate;
+  animation: sunray1 6s linear infinite;
+  animation-direction: alternate;
+  background-position: -20px -5480px;
+}
+.sunray2{
+  -webkit-animation: sunray2 6s linear infinite;
+  -webkit-animation-direction: alternate;
+  -moz-animation: sunray2 6s linear infinite;
+  -moz-animation-direction: alternate;
+  -ms-animation: sunray2 6s linear infinite;
+  -ms-animation-direction: alternate;
+  -o-animation: sunray2 6s linear infinite;
+  -o-animation-direction: alternate;
+  animation: sunray2 6s linear infinite;
+  animation-direction: alternate;
+  background-position: -20px -20px;
+}
+@-webkit-keyframes sunray1 {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-webkit-keyframes sunray2 {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-moz-keyframes sunray1 {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes sunray2 {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-ms-keyframes sunray1 {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-ms-keyframes sunray2 {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-o-keyframes sunray1 {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes sunray2 {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@keyframes sunray1 {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes sunray2 {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@media only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dppx) {
+  .haven{
+    background:url("haven_2x.png") top left no-repeat;
+  }
+  .landscape {
+    background-position:-20px -13010px;
+  }
+  .sunray1 {
+    background-position:-20px -2185px;
+  }
+
+  @-webkit-keyframes landscape {
+    from { background-position: -20px -13010px; }
+    to { background-position: -20px -6515px; }
+  }
+  @-moz-keyframes landscape {
+    from { background-position: -20px -13010px; }
+    to { background-position: -20px -6515px; }
+  }
+  @-ms-keyframes landscape {
+    from { background-position: -20px -13010px; }
+    to { background-position: -20px -6515px; }
+  }
+  @-o-keyframes landscape {
+    from { background-position: -20px -13010px; }
+    to { background-position: -20px -6515px; }
+  }
+  @keyframes landscape {
+    from { background-position: -20px -13010px; }
+    to { background-position: -20px -6515px; }
+  }
+}
+
+.icon-list {
+  text-align: center;
+}
+.icon {
+  vertical-align: top;
+  width: 50px;
+  height: 50px;
+  margin: 0px 10px;
+  padding: 10px 10px;
+  border-radius: 25px;
+}
+.desktop-icon {
+  background: #ccc;
+  color: #666;
+}
+.desktop-icon a,
+.desktop-icon a:hover,
+.desktop-icon a:active,
+.desktop-icon a:focus {
+  color: #666;
+}
+
+.icon-red {
+  background: #FF7BAC;
+}
+.icon-red a,
+.icon-red a:hover,
+.icon-red a:active,
+.icon-red a:focus {
+  color: #CC5887;
+}
+
+.icon-green {
+  background: #A2C67F;
+}
+.icon-green a,
+.icon-green a:hover,
+.icon-green a:active,
+.icon-green a:focus {
+  color: #5E7A40;
+}
+
+.icon-blue {
+  background: #3FA9F5;
+}
+.icon-blue a,
+.icon-blue a:hover,
+.icon-blue a:active,
+.icon-blue a:focus {
+  color: #1A79A8;
+}
+
+.screen-size-message {
+  color: #999;
+  font-size: 18px;
+}

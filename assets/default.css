@@ -1,3 +1,7 @@
+body {
+	color:#666666;
+}
+
 .title {
 	font-family: "Wire One" sans-serif;
 	text-align: center;
@@ -14,19 +18,48 @@
 	text-decoration:none;
 }
 
+.post {
+	color:#666666;
+}
+a.post:hover,
+a.post:active,
+a.post:focus {
+  text-decoration:none;
+	color:#666666;
+}
+
+.box {
+  box-shadow: 0px 0px 8px #aaa;
+  border-radius: 5px;
+}
+
 .navigation {
 	font-family: "Wire One" sans-serif;
 	text-align: center;
 	font-size: 24px;
 }
-
 .navigation li {
-	padding: 25px 40px;
+	margin: 20px 35px;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 4px;
+}
+.navigation li:last-child {
+  margin-right: 75px;
+}
+.navigation ul {
+  padding: 0px;
 }
 
-.navigation li:last-child {
-	padding-right: 76px;
+@media (max-width:991px) {
+  .navigation li {
+    display: block;
+  }
+  .navigation li:last-child {
+    margin-right: 0px;
+  }
 }
+
 
 .navigation li.active {
 	background: #E6E6E6;
@@ -47,4 +80,69 @@
 	font-size: 22;
 	padding: 60px 30px 40px 5px;
 	color: #808080;
+}
+
+.block-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post-title {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.post-date {
+  font-weight: 600;
+  text-align: right;
+}
+
+a.link-stealthy,
+a.link-stealthy:hover,
+a.link-stealthy:active,
+a.link-stealthy:focus{
+  text-decoration:none;
+	color:#666666;
+}
+
+.vspace5 {
+  margin-top: 5px;
+}
+.vspace10 {
+  margin-top: 10px;
+}
+.vspace15 {
+  margin-top: 15px;
+}
+.vspace20 {
+  margin-top: 20px;
+}
+.vspace40 {
+  margin-top: 40px;
+}
+.vbspace5 {
+  margin-bottom: 5px;
+}
+.vbspace10 {
+  margin-bottom: 10px;
+}
+.vbspace20 {
+  margin-bottom: 20px;
+}
+
+.relpos {
+  position: relative;
+}
+
+.rss-link {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background: #e6e6e6;
+  padding-top: 4px;
+  padding-left: 3px;
 }

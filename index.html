@@ -1,13 +1,15 @@
 ---
 layout: default
+css:
+  - /assets/moth/moth.css
 ---
-<!DOCTYPE html>
-<html>
-  <head>
-  	<div class="moth-container">
-  		<div id="body" class="moth"></div>
-  		<div id="wings1" class="moth"></div>
-  	</div>
-  </head>
-  <body>
-  </body>
+<div class="moth-container">
+  <div class="moth body"></div>
+  <div id="wings" class="moth wings"></div>
+</div>
+<script type="text/javascript">
+  // Redirect to blog on mobile
+  if (window.innerWidth < 992) {
+    window.location.pathname = "/blog/index.html";
+  }
+</script>
