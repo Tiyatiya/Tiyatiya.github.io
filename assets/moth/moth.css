@@ -1,7 +1,7 @@
 .moth-container {
   margin: 0px auto;
-  height:600px;
   width: 800px;
+  height:600px;
 }
 
 .moth{
@@ -62,53 +62,6 @@ only screen and (min-device-pixel-ratio: 1.5),
 only screen and (min-resolution: 144dppx) {
   .moth{
     background:url("moth_2x.png") top left no-repeat;
-  }
-  .body{
-    background-position:-20px -3680px;
-  }
-
-  .wings {
-    background-position:-20px -2460px;
-  }
-
-  @-webkit-keyframes wings {
-    95% { background-position: -20px -2460px;
-    }
-    97% { background-position: -20px -1240px;
-    }
-    99% { background-position: -20px -20px;
-    }
-  }
-  @-moz-keyframes wings {
-    95% { background-position: -20px -2460px;
-    }
-    97% { background-position: -20px -1240px;
-    }
-    99% { background-position: -20px -20px;
-    }
-  }
-  @-ms-keyframes wings {
-    95% { background-position: -20px -2460px;
-    }
-    97% { background-position: -20px -1240px;
-    }
-    99% { background-position: -20px -20px;
-    }
-  }
-  @-o-keyframes wings {
-    95% { background-position: -20px -2460px;
-    }
-    97% { background-position: -20px -1240px;
-    }
-    99% { background-position: -20px -20px;
-    }
-  }
-  @keyframes wings {
-    95% { background-position: -20px -2460px;
-    }
-    97% { background-position: -20px -1240px;
-    }
-    99% { background-position: -20px -20px;
-    }
+    background-size: 840px 2500px;
   }
 }

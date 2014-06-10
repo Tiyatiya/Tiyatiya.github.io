@@ -4,6 +4,8 @@ url: tiyatiya.com
 author:
   name: Tiya Tiyasirichokchai
   email: tiya.chokchai@gmail.com
+  linkedin: https://www.linkedin.com/pub/tiya-tiyasirichokchai/26/25a/575
+  dribbble: http://dribbble.com/t_tiyasiricho
 
 paginate: 3
 paginate_path: "blog/page:num"

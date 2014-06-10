@@ -1,7 +1,7 @@
 .haven-container {
   margin: 0px auto;
-  height:1072px;
   width: 750px;
+  height:1072px;
 }
 .haven{
   background:url("haven.png") top left no-repeat;
@@ -113,33 +113,7 @@ only screen and (min-device-pixel-ratio: 1.5),
 only screen and (min-resolution: 144dppx) {
   .haven{
     background:url("haven_2x.png") top left no-repeat;
-  }
-  .landscape {
-    background-position:-20px -13010px;
-  }
-  .sunray1 {
-    background-position:-20px -2185px;
-  }
-
-  @-webkit-keyframes landscape {
-    from { background-position: -20px -13010px; }
-    to { background-position: -20px -6515px; }
-  }
-  @-moz-keyframes landscape {
-    from { background-position: -20px -13010px; }
-    to { background-position: -20px -6515px; }
-  }
-  @-ms-keyframes landscape {
-    from { background-position: -20px -13010px; }
-    to { background-position: -20px -6515px; }
-  }
-  @-o-keyframes landscape {
-    from { background-position: -20px -13010px; }
-    to { background-position: -20px -6515px; }
-  }
-  @keyframes landscape {
-    from { background-position: -20px -13010px; }
-    to { background-position: -20px -6515px; }
+    background-size: 790px 7662px;
   }
 }
 
