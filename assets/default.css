@@ -146,3 +146,11 @@ a.link-stealthy:focus{
   padding-top: 4px;
   padding-left: 3px;
 }
+
+.paused {
+  -webkit-animation-play-state:paused !important;
+  -moz-animation-play-state:paused !important;
+  -ms-animation-play-state:paused !important;
+  -o-animation-play-state:paused !important;
+  animation-play-state:paused !important;
+}
