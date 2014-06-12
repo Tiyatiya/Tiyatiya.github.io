@@ -54,14 +54,13 @@
   99% { background-position: -20px -20px; }
 }
 
-
-@media only screen and (-moz-min-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min-device-pixel-ratio: 1.5),
-only screen and (min-resolution: 144dppx) {
-  .moth{
-    background:url("moth_2x.png") top left no-repeat;
-    background-size: 840px 2500px;
-  }
-}
+/* @media only screen and (-moz-min-device-pixel-ratio: 1.5), */
+/* only screen and (-o-min-device-pixel-ratio: 3/2), */
+/* only screen and (-webkit-min-device-pixel-ratio: 1.5), */
+/* only screen and (min-device-pixel-ratio: 1.5), */
+/* only screen and (min-resolution: 144dppx) { */
+/*   .moth{ */
+/*     background:url("moth_2x.png") top left no-repeat; */
+/*     background-size: 840px 2500px; */
+/*   } */
+/* } */
