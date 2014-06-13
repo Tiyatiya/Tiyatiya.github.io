@@ -18,7 +18,7 @@ The size of the polar bear skull actually took me by surprise. It could have jus
 
 <img class="img-responsive" src="/assets/placeholders/academyofscience_polarbear.png" style="width:800px">
 
-This was a large case of mutated skulls and skulls left with punctures holes inflicted by hunting arrows and presumably animal combat.
+There's a large case of mutated skulls and skulls left with puncture holes inflicted by hunting arrows and presumably animal combat.
 
 <img class="img-responsive" src="/assets/placeholders/academyofscience_mutant.png" style="width:800px">
 
