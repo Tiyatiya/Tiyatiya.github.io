@@ -9,9 +9,9 @@ It's the campfire way to tell stories! The actual definition of round robin is o
 So the basic idea of this service is... Step 1: Have the ambition to write a story with friends. Step 2: Set up a story title and basic descriptions, and invite friends via gmail or directly inputing emails. Step 3: Watch all the fun unfold!
 
 This is a screenshot of the mobile view.
-image: /assets/placeholders/roundrobinfiction_mobile.png
+<img src="/assets/placeholders/roundrobinfiction_mobile.png">
 
 And we also have forums in the works! I just finished designing it a few weeks ago and it'll probably be our next big feature to the website. 
-image: /assets/placeholders/roundrobinfiction_forums.png
+<img src="/assets/placeholders/roundrobinfiction_forums.png">
 
 We'll be launching soon-ish! Probably officially later this month.
