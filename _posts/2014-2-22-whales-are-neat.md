@@ -1,13 +1,17 @@
 ---
 layout: post
-title: I Think Whales are Cool
-description: some things
-image: //placehold.it/800x200
+title: Round Robin Fiction is in the works
+description: Round Robin Fiction, the collaborative storytelling platform for all your creative writing needs.
+image: /assets/placeholders/roundrobinfiction.png
 ---
-Mumblecore pork belly ethical DIY. 90's seitan Marfa pour-over, McSweeney's food truck actually Vice narwhal tote bag salvia slow-carb polaroid twee. Vice swag direct trade, roof party normcore Pitchfork banh mi ennui locavore bespoke distillery Truffaut. Kogi Thundercats trust fund sartorial, artisan Intelligentsia letterpress Blue Bottle tote bag master cleanse mustache banh mi. Ennui bicycle rights you probably haven't heard of them, umami distillery tousled XOXO mixtape stumptown. Pork belly raw denim before they sold out ennui mustache. +1 Carles occupy Tumblr you probably haven't heard of them, freegan asymmetrical vinyl photo booth sartorial ethnic irony mustache jean shorts.
+It's the campfire way to tell stories! The actual definition of round robin is one of collaborative storytelling with multiple authors. This side project, working with a young talented gent named Stevearc, is one that remains dear to me. Such nostalgia! I was one of those kids coveting these 'pass along' notebooks with my friends, incorporating people we knew into the storylines and creating ridiculous situations to find ourselves in. Sadly, and unsurprisingly the stories in those notebooks were... not particulary good. But with Round Robin we're hoping for some better creative writing; something more mature and thought out. Or not! Whatever, that's the beauty of these kinds of platforms. We want to build an environment where people of all ages and professions would be comfortable wearing a creative writing hat. But most importantly, it's just something that's fun, silly, and thoroughly entertaining.
 
-Raw denim leggings banjo, vinyl McSweeney's put a bird on it paleo tote bag street art pop-up mumblecore. PBR&B try-hard street art, iPhone salvia forage pop-up wayfarers tousled. Wolf tousled yr, umami American Apparel actually banjo polaroid iPhone cred. Pour-over aesthetic salvia chia literally. Forage deep v mustache, Pinterest Intelligentsia sustainable Etsy Neutra food truck jean shorts. Try-hard artisan Kickstarter Marfa, tote bag 3 wolf moon squid bespoke gastropub pickled authentic Tumblr. Chambray Shoreditch pickled, fixie banjo food truck art party.
+So the basic idea of this service is... Step 1: Have the ambition to write a story with friends. Step 2: Set up a story title and basic descriptions, and invite friends via gmail or directly inputing emails. Step 3: Watch all the fun unfold!
 
-IPhone bicycle rights farm-to-table, wolf Brooklyn locavore selfies. Cray beard sriracha lo-fi iPhone. Marfa butcher single-origin coffee messenger bag. Wes Anderson ugh aesthetic, VHS Kickstarter narwhal meggings street art Carles. Butcher brunch chambray Shoreditch, pickled authentic wayfarers flannel semiotics Pinterest ugh readymade jean shorts. Retro fap direct trade, banh mi butcher blog Tumblr forage Kickstarter twee vegan. Cosby sweater Kickstarter farm-to-table, kogi McSweeney's Echo Park Intelligentsia raw denim flexitarian.
+This is a screenshot of the mobile view.
+image: /assets/placeholders/roundrobinfiction_mobile.png
 
-Drinking vinegar chillwave freegan put a bird on it XOXO, beard iPhone letterpress before they sold out vegan cornhole small batch fixie direct trade. Gentrify selvage shabby chic master cleanse, Tonx lomo 90's keytar beard aesthetic street art semiotics. Actually wolf crucifix 3 wolf moon gastropub, Cosby sweater retro Brooklyn sriracha sartorial wayfarers Pinterest. Gastropub food truck chillwave, distillery Wes Anderson salvia Odd Future street art lo-fi Helvetica freegan. Try-hard pop-up jean shorts bicycle rights. Chambray hella drinking vinegar pickled kitsch meh. Leggings twee organic, chia stumptown wolf street art Tonx vinyl you probably haven't heard of them brunch gluten-free.
+And we also have forums in the works! I just finished designing it a few weeks ago and it'll probably be our next big feature to the website. 
+image: /assets/placeholders/roundrobinfiction_forums.png
+
+We'll be launching soon-ish! Probably officially later this month.
