@@ -6,7 +6,7 @@ image: /assets/placeholders/tardigrade.png
 ---
 I happen to have some pretty cool friends; not that I'm bragging or anything. They're just awesome. One couple in particular are having a baby soon and in my enthusiasm I exclaimed, "A bab-by?? I want to make a thing for your bab-by!". And so I did. I ended up making many things for their bab-by. One happened to be a special request for a cross between a crab and a dinosaur... a crabasaurus! Behold this cute monsterous thing!
 
-<img class="img-responsive" src="/assets/placeholders/crabasaurus.png" style="width:800px">
+<img class="img-responsive" src="/assets/placeholders/crabasaurus1.png" style="width:800px">
 
 <img class="img-responsive" src="/assets/placeholders/crabasaurus2.png" style="width:800px">
 
