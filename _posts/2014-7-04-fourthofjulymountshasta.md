@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Mount Shasta, Fourth of July Celebrations, and hikes all weekend long
-description: Finally I get the hiking weekend I've been craving!
+title: Yes! I get the hiking weekend I've been craving
+description: Fourth of July celebrations, food, friends, and high elevation
 image: /assets/placeholders/fourthofjuly.png
 ---
 Happy fourth, everyone! Just a reminder that life is awesome, especially when you can reflect on it on top of a mountain... looking at another mountain.
