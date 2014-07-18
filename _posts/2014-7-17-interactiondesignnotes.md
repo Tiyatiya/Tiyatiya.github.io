@@ -1,6 +1,6 @@
 ---
 layout: post
-title: New Book! Make It So: Interaction Design Lessons from Science Fiction
+title: New Book! Make It So, Interaction Design Lessons from Science Fiction
 description: Taking lessons from science fiction into real world solutions
 image: /assets/placeholders/interactiondesign.png
 ---
@@ -15,10 +15,6 @@ Which actually brings us to the next interesting point that Shedroff and Noessel
 My last note for this section deals mainly with visual/graphic design. The way something <i>looks</i> is the first immediate impression we have on something. We're used to thinking in terms of goal-oriented design, "what do we want users to do here?" kinds of questions, but putting visual elements on the backburner isn't good. Cluttered visual elements confuses the composition and can make the message muddled. The appearance is part of a user's experience. It's fundamental to how people will preceive the quality, complexity, and usability of a product. This is why mastering visual hierarchy is so important. Focus, depth, rhythm, color weight, spacing, typography, and element relationships make all the difference between feeling orderly or a hot mess.  
 
 Okay, stay tuned if you're interested as there are a lot more notes to come as I slash my way consuming this fascinating book. :D
-
-<img class="img-responsive" src="/assets/placeholders/fourthofjuly2.png" style="width:800px">
-
-<i>Mount Shasta, view from Heart Lake in California</i>
 
 
 
